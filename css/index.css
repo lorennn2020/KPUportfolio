@@ -211,7 +211,8 @@ article{
     transform: translateY(-0.5%);
 }
 
-#works .wrap > div:first-child{
+#works .wrap > div:first-child,
+#works .wrap > div:last-child{
     width: 100%;
     padding-bottom: 74%;
 }
@@ -278,7 +279,8 @@ article{
 #works .wrap > div:hover > p{
     text-decoration: underline;
 }
-#works .wrap > div#savingBOB p{
+#works .wrap > div#savingBOB p,
+#works .wrap > div#threeD_anchor p{
     top: 93.6%;
     left: 2%;
 }
@@ -294,7 +296,8 @@ article{
     color:#fff;
     cursor: pointer;
 }
-#works section.wrap > div#savingBOB > p.tag{
+#works section.wrap > div#savingBOB > p.tag,
+#works section.wrap > div#threeD_anchor > p.tag{
     top: 86%;
     left: -1%;
     padding: 1.6% 2.5% 1.6% 3.5%;
@@ -342,6 +345,12 @@ body.inner #campingInner .inner_img.line:nth-child(4),
 body.inner #campingInner .line:nth-child(6),
 body.inner #campingInner .line:nth-child(8){
     margin-right: 1.9%;
+}
+#weatherGrapicInner .inner_img{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 15%;
 }
 /* works end */
 /* about */
