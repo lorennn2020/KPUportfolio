@@ -349,8 +349,8 @@ body.inner #campingInner .line:nth-child(8){
 #weatherGrapicInner .inner_img{
     border-radius: 10px;
     overflow: hidden;
-    width: 70%;
-    margin: 0 15%;
+    width: 50%;
+    margin: 0 25%;
 }
 /* works end */
 /* about */
